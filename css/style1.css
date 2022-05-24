@@ -1,0 +1,277 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: gray; }
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0;
+}
+
+ul , li {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+ .container {
+     margin: 0 auto;
+     width: 940px;
+}
+button {
+    border: none;
+}
+
+/* Шапка */
+header {
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+    box-shadow: 0 0 5px;
+    background-color:#dcd8d8;
+    position: fixed;
+    width: 100%;
+}
+ header a {
+     text-transform: uppercase;
+     color: #000000;
+     font-weight: 400;
+ }
+
+ header a:hover {
+    color: red;
+    transition: all 0,6 ease;
+ }
+  
+ .simple {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ .logo {
+     width: 100%;
+ }
+  .bit {
+      display: flex;
+  }
+  .bit li {
+    margin-right: 36px;
+  }
+
+  /* баннер */
+
+ .g2 {
+    display: flex;
+
+ }
+ .amanek {
+    display: flex;
+     text-align: center;
+     padding-top: 91px;
+     flex-direction: row-reverse;
+ }
+ .amanek2 img  {
+    padding-right: 100px; 
+     transition-duration: 2s;
+     width: 561px;
+     height: 436px;
+     border-radius: 59px;
+border: 1px solid #000000;
+    }
+ .amanek h1 {
+     color: #404044;
+     font-size: 35px;  
+     margin-top: 33px;
+     text-transform: uppercase;
+ }
+ .amanek p {
+     font-size: 15px;
+     color: black;
+     font-weight: 300;
+}
+.niko2 {
+ margin-bottom: 120px;
+ padding: 40px;
+}
+
+/* услуги */
+
+.Nip {
+    padding-top: 80px;
+    padding-bottom: 180px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.device {
+    padding: 20px 0;
+    background: #fff;
+    color: #404044;
+    text-align: center;
+}
+.hampus {
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.rez {
+    width: 160px;
+    height: 5px;
+    background: #007bff;
+    margin: 20px auto;
+}
+
+.gambit {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hobbit {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+    background-image: 30px;
+}
+.Axile {
+    background: #FFFFFF;
+    padding: 30px;
+}
+.Axile img {
+width: 259px;
+height: 259px;
+border-radius: 42px;
+border: 1px solid #000000;
+}
+.Axile2 img {
+        width: 507px;
+    height: 200px;
+    border-radius: 45px;
+    border: 1px solid #000000;
+    text-align: center;
+    margin-left: -78px;
+}
+.Axile3 img {
+width: 289px;
+    height: 154px;
+    border-radius: 45px;
+    border: 1px solid #000000;
+    text-align: center;
+    margin-left: 5px;
+}
+.name {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+
+
+.news h1 {
+    margin-bottom: 30px;
+}
+
+.news__feed {
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.news__feed img {
+    width: 176px;
+    border-radius: 42px;
+    border: 1px solid #000000;
+}
+
+.news__title {
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+.news__title h3 {
+    font-size: 27px;
+    font-weight: 400;
+    color:#404040;
+}
+
+.news__promo {
+    text-align: justify;
+    font-size: 17px;
+    color:#000000;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+
+.news__link {
+   text-align: justify;
+   font-size: 17px;
+   margin-top: -1px;
+   color: #0048ff;
+   font-family: 'Roboto';
+   font-style: normal;
+   color: #000000;
+    white-space: nowrap
+}
+
+
+.closed {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(253, 253, 253);
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.form-action {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    background-color: #007bff;
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+.form-action__input {
+    background: #fff;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 5px;
+    width: 500px;
+    padding: 14px 0;
+    margin-right: 10px;
+    border: 0;
+    padding-left: 23px;
+    outline: none;
+}
+
+.form-action__btn {
+    font-family: sans-serif;
+    background: rgb(0 0 0 / 40%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 200px;
+    border: 0;
+    padding: 14px 0;
+    cursor: pointer;
+}
